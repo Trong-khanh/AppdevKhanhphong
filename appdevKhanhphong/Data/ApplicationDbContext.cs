@@ -14,6 +14,8 @@ namespace appdevKhanhphong.Data
         {
         }
 
-        public DbSet<ApplicationUser>ApplicationUsers { get; set; }
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+        public DbSet<Trainer> Trainers { get; set; }
+        public DbSet<Trainee> Trainees { get; set; }
     }
 }
